@@ -41,4 +41,10 @@ FOUNDATION_EXPORT const unsigned char LottieVersionString[];
 #import "LOTValueCallback.h"
 #import "LOTValueDelegate.h"
 
+#import "../lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTTransformInterpolator.h"
+#import "../lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTNumberInterpolator.h"
+#import "../lottie-ios/Classes/RenderSystem/InterpolatorNodes/LOTValueInterpolator.h"
+#import "../lottie-ios/Classes/AnimatableProperties/LOTKeyframe.h"
+#import "../lottie-ios/Classes/Models/LOTLayerGroup.h"
+
 #endif /* Lottie_h */

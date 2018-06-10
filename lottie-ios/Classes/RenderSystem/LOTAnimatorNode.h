@@ -17,7 +17,7 @@ extern NSInteger indentation_level;
 
 /// Initializes the node with and optional input node and keyname.
 - (instancetype _Nonnull)initWithInputNode:(LOTAnimatorNode *_Nullable)inputNode
-                                    keyName:(NSString *_Nullable)keyname;
+                                   keyName:(NSString *_Nullable)keyname;
 
 /// A dictionary of the value interpolators this node controls
 @property (nonatomic, readonly, strong) NSDictionary * _Nullable valueInterpolators;
